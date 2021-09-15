@@ -1,0 +1,26 @@
+dl.pollInfo dt {
+  font-weight: bold;
+  margin-top: 4px;
+  margin-bottom: 2px;
+}
+dl.pollInfo dd {
+	margin-left: 10px;
+}
+
+ul.postPollList, ul.pollsList {
+	margin: 0 0 1em 0;
+	padding: 0;
+}
+ul.postPollList li, ul.pollsList li {
+	margin: 0;
+	padding: 0;
+	list-style: square;
+	list-style-position: inside;
+}
+a.postPollRemove {
+	color : #999 !important;
+	border: none;
+}
+a.postPollRemove:hover, a.pollRemove:focus {
+	color : #06c !important;
+}

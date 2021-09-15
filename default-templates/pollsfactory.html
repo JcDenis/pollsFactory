@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="{{tpl:EntryLang}}" lang="{{tpl:EntryLang}}">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="MSSmartTagsPreventParsing" content="TRUE" />
+  <meta name="ROBOTS" content="{{tpl:BlogMetaRobots}}" />
+  
+  <title>{{tpl:EntryTitle encode_html="1"}} - {{tpl:lang Polls}} - {{tpl:BlogName encode_html="1"}}</title>
+  <meta name="description" lang="{{tpl:EntryLang}}" content="{{tpl:lang Polls}} - {{tpl:EntryContent full="1" encode_html="1" remove_html="1" cut_string="180"}}" />
+  <meta name="copyright" content="{{tpl:BlogCopyrightNotice encode_html="1"}}" />
+  <meta name="author" content="{{tpl:EntryAuthorCommonName encode_html="1"}}" />
+  <meta name="date" scheme="W3CDTF" content="{{tpl:EntryDate iso8601="1"}}" />
+  
+  <link rel="schema.dc" href="http://purl.org/dc/elements/1.1/" />
+  <meta name="dc.title" content="{{tpl:EntryTitle encode_html="1"}}" />
+  <meta name="dc.description" lang="{{tpl:EntryLang}}" content="{{tpl:lang Polls}} - {{tpl:EntryContent full="1" encode_html="1" remove_html="1" cut_string="180"}}" />
+  <meta name="dc.creator" content="{{tpl:EntryAuthorCommonName encode_html="1"}}" />
+  <meta name="dc.language" content="{{tpl:EntryLang}}" />
+  <meta name="dc.publisher" content="{{tpl:BlogEditor encode_html="1"}}" />
+  <meta name="dc.rights" content="{{tpl:BlogCopyrightNotice encode_html="1"}}" />
+  <meta name="dc.date" scheme="W3CDTF" content="{{tpl:EntryDate iso8601="1"}}" />
+  <meta name="dc.type" content="text" />
+  <meta name="dc.format" content="text/html" />
+  
+  <link rel="top" href="{{tpl:BlogURL}}" title="{{tpl:lang Home}}" />
+    
+  {{tpl:include src="_head.html"}}
+  
+  <style type="text/css"> .poll-field, .poll-textarea {width: 100%;} </style> 
+</head>
+ 
+<body class="dc-post dc-pollsFactory">
+<div id="page">
+{{tpl:include src="_top.html"}}
+ 
+<div id="wrapper">
+ 
+<div id="main">
+  <div id="content">
+ 
+  <div id="p{{tpl:EntryID}}" class="post">
+    <h2>{{tpl:EntryTitle encode_html="1"}}</h2>
+
+    <p class="post-info">{{tpl:lang By}} {{tpl:EntryAuthorLink}}
+    {{tpl:lang on}} {{tpl:EntryDate}}, {{tpl:EntryTime}} 
+    - <a href="{{tpl:EntryURL}}">{{tpl:lang Permalink}}</a>
+    </p>
+
+    <div class="post-content">{{tpl:EntryContent}}</div>
+
+   <div class="content-inner">{{tpl:PollForm}}</div>
+  </div> 
+  </div>
+</div> <!-- End #main -->
+ 
+<div id="sidebar">
+  <div id="blognav">
+    {{tpl:Widgets type="nav"}}
+  </div> <!-- End #blognav -->
+ 
+  <div id="blogextra">
+    {{tpl:Widgets type="extra"}}
+  </div> <!-- End #blogextra -->
+</div>
+ 
+</div> <!-- End #wrapper -->
+ 
+{{tpl:include src="_footer.html"}}
+</div> <!-- End #page -->
+</body>
+</html>
