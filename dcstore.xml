@@ -2,10 +2,10 @@
 <modules xmlns:da="http://dotaddict.org/da/">
   <module id="pollsFactory">
     <name>Polls manager</name>
-    <version>2026.11.04</version>
+    <version>2026.11.05</version>
     <author>Jean-Christian Denis</author>
     <desc>Create polls and add them to entries</desc>
-    <file>https://github.com/JcDenis/pollsFactory/releases/download/v2026.11.04/plugin-pollsFactory.zip</file>
+    <file>https://github.com/JcDenis/pollsFactory/releases/download/v2026.11.05/plugin-pollsFactory.zip</file>
     <da:dcmin>2.39</da:dcmin>
     <da:details>https://github.com/JcDenis/pollsFactory/src/branch/master/README.md</da:details>
     <da:support>https://github.com/JcDenis/pollsFactory/issues</da:support>
