@@ -1,4 +1,4 @@
-pollsFactory 2026.11.04
+pollsFactory 2026.11.05
 ===========================================================
 * Rewrite plugin for Dotclear 2.39 (namespaces, Helper\Form, phpstan max)
 * Require Dotclear 2.39 and PHP 8.1
