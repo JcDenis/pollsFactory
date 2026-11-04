@@ -1,0 +1,10 @@
+progress.poll-bar {
+  width: 15em;
+  vertical-align: middle;
+}
+fieldset.poll-query {
+  margin-bottom: 1.5em;
+}
+fieldset.poll-query table input[type="submit"] {
+  padding: 0 0.5em;
+}

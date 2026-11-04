@@ -1,0 +1,34 @@
+{{tpl:extends parent="__layout.html"}}
+
+<tpl:Block name="head-title">
+  <title>{{tpl:EntryTitle encode_html="1"}} - {{tpl:lang Polls}} - {{tpl:BlogName encode_html="1"}}</title>
+</tpl:Block>
+
+<tpl:Block name="meta-robots">
+  <meta name="ROBOTS" content="{{tpl:BlogMetaRobots}}" />
+</tpl:Block>
+
+<tpl:Block name="meta-entry">
+  <meta name="description" lang="{{tpl:EntryLang}}" content="{{tpl:EntryContent full="1" encode_html="1" remove_html="1" cut_string="180"}}" />
+  <meta name="author" content="{{tpl:EntryAuthorCommonName encode_html="1"}}" />
+  <meta name="date" content="{{tpl:EntryDate iso8601="1"}}" />
+</tpl:Block>
+
+<tpl:Block name="body-tag">
+  <body class="dc-post dc-pollsfactory">
+</tpl:Block>
+
+<tpl:Block name="main-content">
+  <div id="p{{tpl:EntryID}}" class="post" role="article">
+    <h2 class="post-title">{{tpl:EntryTitle encode_html="1"}}</h2>
+
+    <p class="post-info">{{tpl:lang By}} {{tpl:EntryAuthorLink}}
+      {{tpl:lang on}} {{tpl:EntryDate}}, {{tpl:EntryTime}}
+      - <a href="{{tpl:EntryURL}}">{{tpl:lang Permalink}}</a>
+    </p>
+
+    <div class="post-content">{{tpl:EntryContent}}</div>
+
+    {{tpl:PollForm}}
+  </div>
+</tpl:Block>

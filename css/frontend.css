@@ -1,0 +1,64 @@
+.pollsfactory {
+  margin: 1em 0;
+}
+.pollsfactory .poll-query {
+  margin: 0 0 1em 0;
+  border: none;
+  padding: 0;
+}
+.pollsfactory .poll-query legend,
+.pollsfactory .poll-query h4 {
+  font-weight: bold;
+}
+.pollsfactory .poll-query-desc {
+  font-size: 0.9em;
+  margin-bottom: 0.5em;
+}
+.pollsfactory .poll-field,
+.pollsfactory .poll-textarea {
+  width: 100%;
+  box-sizing: border-box;
+}
+.pollsfactory .poll-info {
+  font-style: italic;
+}
+.pollsfactory ul.poll-results {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.pollsfactory ul.poll-results li {
+  margin: 0 0 0.5em 0;
+}
+.pollsfactory .poll-choice,
+.pollsfactory .poll-input {
+  margin: 0 0 0.3em 0;
+  text-align: left;
+}
+.pollsfactory .poll-choice label,
+.pollsfactory .poll-input label {
+  float: none;
+  width: auto;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  display: inline;
+}
+.pollsfactory .poll-input label.poll-label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.3em;
+}
+.pollsfactory .poll-submit {
+  margin-top: 1em;
+}
+.pollsfactory progress.poll-bar {
+  width: 60%;
+  vertical-align: middle;
+}
+.pollsfactory .poll-count {
+  font-size: 0.9em;
+}
+.pollsfactory ul.poll-results .poll-label {
+  display: block;
+}
