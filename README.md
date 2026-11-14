@@ -12,6 +12,8 @@ _pollsFactory_ is a plugin for the open-source web publishing software called [D
 > Create polls with multiple queries (choices lists, options boxes,
 text fields) and add them to entries, pages, widgets or templates.
 
+A user guide with screenshots is available in French: [guide d'utilisation](https://github.com/JcDenis/pollsFactory/blob/master/docs/fr/utilisation.md).
+
 ## REQUIREMENTS
 
 * Dotclear 2.39
@@ -61,6 +63,7 @@ IP addresses are not stored, only a hash of them.
 ## LINKS
 
 * [License](https://github.com/JcDenis/pollsFactory/blob/master/LICENSE)
+* [User guide (in French)](https://github.com/JcDenis/pollsFactory/blob/master/docs/fr/utilisation.md)
 * [Packages & details](https://github.com/JcDenis/pollsFactory/releases)
 * [Sources & contributions](https://github.com/JcDenis/pollsFactory)
 * [Issues & security](https://github.com/JcDenis/pollsFactory/issues)
