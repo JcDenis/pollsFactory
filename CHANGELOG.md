@@ -1,6 +1,5 @@
 pollsFactory 2026.11.14
 ===========================================================
-* Add Claude to contributors
 * Fix dates of responses and voters not in user timezone
 * Fix empty polls limit field in widgets
 * Add an empty first choice to dropdown list queries
