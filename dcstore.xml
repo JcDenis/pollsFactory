@@ -7,7 +7,7 @@
     <desc>Create polls and add them to entries</desc>
     <file>https://github.com/JcDenis/pollsFactory/releases/download/v2026.11.14/plugin-pollsFactory.zip</file>
     <da:dcmin>2.39</da:dcmin>
-    <da:details>https://github.com/JcDenis/pollsFactory/src/branch/master/README.md</da:details>
+    <da:details>https://github.com/JcDenis/pollsFactory/blob/master/README.md</da:details>
     <da:support>https://github.com/JcDenis/pollsFactory/issues</da:support>
   </module>
 </modules>
