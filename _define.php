@@ -21,7 +21,7 @@ $this->registerModule(
     'Polls manager',
     'Create polls and add them to entries',
     'Jean-Christian Denis',
-    '2026.11.05',
+    '2026.11.14',
     [
         'requires'    => [['core', '2.39']],
         'permissions' => 'My',

@@ -1,3 +1,12 @@
+pollsFactory 2026.11.14
+===========================================================
+* Add Claude to contributors
+* Fix dates of responses and voters not in user timezone
+* Fix empty polls limit field in widgets
+* Add an empty first choice to dropdown list queries
+* Add a user guide in French, with screenshots
+* Add admin help in English and French, one block per page
+
 pollsFactory 2026.11.05
 ===========================================================
 * Rewrite plugin for Dotclear 2.39 (namespaces, Helper\Form, phpstan max)
