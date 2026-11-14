@@ -300,7 +300,7 @@ class ManageResults
             ])
             ->render();
 
-        Page::helpBlock(My::id());
+        Page::helpBlock(My::id() . '-results');
         Page::closeModule();
     }
 }

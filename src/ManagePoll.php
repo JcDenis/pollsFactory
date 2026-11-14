@@ -470,7 +470,7 @@ class ManagePoll
             }
         }
 
-        Page::helpBlock(My::id());
+        Page::helpBlock(My::id() . '-poll');
         Page::closeModule();
     }
 
