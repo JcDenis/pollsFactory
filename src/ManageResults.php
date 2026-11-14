@@ -160,6 +160,9 @@ class ManageResults
             return;
         }
 
+        // Dates of responses are in UTC
+        $user_tz = is_string($user_tz = App::auth()->getInfo('user_tz')) ? $user_tz : 'UTC';
+
         // Count responses
         $counts = [];
         $texts  = [];
@@ -226,7 +229,7 @@ class ManageResults
                             (new Hidden(['responses[]'], (string) $text['id'])),
                         ]),
                         (new Td())->class('maximal')->text(nl2br(Html::escapeHTML($text['text']))),
-                        (new Td())->class(['nowrap', 'count'])->text(Date::dt2str(__('%Y-%m-%d %H:%M'), $text['dt'])),
+                        (new Td())->class(['nowrap', 'count'])->text(Date::dt2str(__('%Y-%m-%d %H:%M'), $text['dt'], $user_tz)),
                     ]);
                 }
                 $items[] = (new Div())->class('fieldset')->items([
@@ -270,7 +273,7 @@ class ManageResults
                         ->title(__('Select this voter')),
                 ]),
                 (new Td())->class('maximal')->text(Html::escapeHTML(substr($voter, 0, 12)) . '&hellip;'),
-                (new Td())->class(['nowrap', 'count'])->text(Date::dt2str(__('%Y-%m-%d %H:%M'), $dt)),
+                (new Td())->class(['nowrap', 'count'])->text(Date::dt2str(__('%Y-%m-%d %H:%M'), $dt, $user_tz)),
             ]);
         }
 
