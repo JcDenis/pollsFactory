@@ -211,7 +211,8 @@ class Render
                 }
 
                 if ($type === 'combo') {
-                    $options = [];
+                    // First option is empty to not vote for the first choice by default
+                    $options = [new Option('', '')];
                     foreach ($choices as $selection_id => $title) {
                         $options[] = new Option(Html::escapeHTML($title), (string) $selection_id);
                     }
