@@ -33,7 +33,7 @@ class Widgets
                 __('List of polls')
             )
             ->addTitle(__('Polls'))
-            ->setting('limit', __('Polls limit:'), 10)
+            ->setting('limit', __('Polls limit:'), '10')
             ->setting('sortby', __('Order by:'), 'post_dt', 'combo', [
                 __('Date')  => 'post_dt',
                 __('Title') => 'post_title',
@@ -76,7 +76,7 @@ class Widgets
                 __('Selected polls with their form')
             )
             ->addTitle(__('Selected polls'))
-            ->setting('limit', __('Polls limit:'), 1)
+            ->setting('limit', __('Polls limit:'), '1')
             ->setting('showdesc', __('Show description'), 0, 'check')
             ->setting('usebars', __('Use bars for results'), 1, 'check')
             ->addHomeOnly()
