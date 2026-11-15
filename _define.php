@@ -21,7 +21,7 @@ $this->registerModule(
     'Polls manager',
     'Create polls and add them to entries',
     'Jean-Christian Denis',
-    '2026.11.14',
+    '2026.11.15',
     [
         'requires'    => [['core', '2.39']],
         'permissions' => 'My',
@@ -29,6 +29,6 @@ $this->registerModule(
         'support'     => 'https://github.com/JcDenis/' . $this->id . '/issues',
         'details'     => 'https://github.com/JcDenis/' . $this->id . '/',
         'repository'  => 'https://raw.githubusercontent.com/JcDenis/' . $this->id . '/master/dcstore.xml',
-        'date'        => '2026-11-14T10:30:27+00:00',
+        'date'        => '2026-11-15T15:12:37+00:00',
     ]
 );

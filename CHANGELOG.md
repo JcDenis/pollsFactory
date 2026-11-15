@@ -1,3 +1,7 @@
+pollsFactory 2026.11.15
+===========================================================
+* [lang] Do not override core translations
+
 pollsFactory 2026.11.14
 ===========================================================
 * Fix dates of responses and voters not in user timezone
