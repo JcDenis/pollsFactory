@@ -1,12 +1,11 @@
 <?php
 declare(strict_types=1);
 
-// Language: Français
-// Module: pollsFactory - 2026.11.04
-// Date: 2026-11-04 18:56:29
-// Author: Jean-Christian Denis, contact@jcdenis.fr
-// Translated with Translater - 2026.11.04
-
+/**
+ * @package Dotclear
+ *
+ * @copyright Olivier Meunier & Association Dotclear
+ */
 #
 # DOT NOT MODIFY THIS FILE !
 #
@@ -16,13 +15,13 @@ use Dotclear\Helper\L10n;
 L10n::$locales['Polls manager'] = 'Gestionnaire de sondages';
 L10n::$locales['Create polls and add them to entries'] = 'Créer des sondages et les ajouter aux billets';
 L10n::$locales['Polls'] = 'Sondages';
-L10n::$locales['Status'] = 'Statut';
+L10n::$locales['Status'] = 'État';
 L10n::$locales['Votes'] = 'Votes';
 L10n::$locales['Open votes'] = 'Ouvrir les votes';
 L10n::$locales['Close votes'] = 'Fermer les votes';
 L10n::$locales['Mark'] = 'Marquer';
-L10n::$locales['Mark as selected'] = 'Marquer comme sélectionné';
-L10n::$locales['Mark as unselected'] = 'Marquer comme non sélectionné';
+L10n::$locales['Mark as selected'] = 'Sélectionner';
+L10n::$locales['Mark as unselected'] = 'Désélectionner';
 L10n::$locales['Delete'] = 'Supprimer';
 L10n::$locales['Back to polls list'] = 'Retour à la liste des sondages';
 L10n::$locales['Polls actions'] = 'Actions sur les sondages';
@@ -35,16 +34,16 @@ L10n::$locales['Poll creation'] = 'Création de sondage';
 L10n::$locales['Poll called "%s" was created by "%s"'] = 'Le sondage « %s » a été créé par « %s »';
 L10n::$locales['One poll'] = 'Un sondage';
 L10n::$locales['Voters'] = 'Votants';
-L10n::$locales['Entries'] = 'Billets';
+L10n::$locales['Entries'] = 'Entrées';
 L10n::$locales['Date'] = 'Date';
-L10n::$locales['Author'] = 'Auteur';
+L10n::$locales['Author'] = 'Auteur·rice';
 L10n::$locales['Title'] = 'Titre';
 L10n::$locales['Selected'] = 'Sélectionné';
 L10n::$locales['polls per page'] = 'sondages par page';
 L10n::$locales['Edit poll'] = 'Modifier le sondage';
 L10n::$locales['Add a poll:'] = 'Ajouter un sondage :';
 L10n::$locales['Create a poll'] = 'Créer un sondage';
-L10n::$locales['hide'] = 'masquer';
+L10n::$locales['hide'] = 'cacher';
 L10n::$locales['before content'] = 'avant le contenu';
 L10n::$locales['after content'] = 'après le contenu';
 L10n::$locales['Configuration has been successfully updated.'] = 'La configuration a été mise à jour.';
@@ -59,8 +58,8 @@ L10n::$locales['Place of polls in entries:'] = 'Emplacement des sondages dans le
 L10n::$locales['Show full polls (else only links to polls pages)'] = 'Afficher les sondages complets (sinon seulement des liens vers les pages des sondages)';
 L10n::$locales['Show polls of entries on these pages:'] = 'Afficher les sondages des billets sur ces pages :';
 L10n::$locales['Polls can also be displayed with widget "Polls: polls of an entry" or template tag {{tpl:PollsOfEntry}}.'] = 'Les sondages peuvent aussi être affichés avec le widget « Sondages : sondages d\'un billet » ou la balise de template {{tpl:PollsOfEntry}}.';
-L10n::$locales['Author:'] = 'Auteur :';
-L10n::$locales['Selected:'] = 'Sélectionné :';
+L10n::$locales['Author:'] = 'Autrice ou auteur :';
+L10n::$locales['Selected:'] = 'Sélectionné :';
 L10n::$locales['Not selected'] = 'Non sélectionné';
 L10n::$locales['Votes:'] = 'Votes :';
 L10n::$locales['Opened'] = 'Ouverts';
@@ -69,7 +68,7 @@ L10n::$locales['No poll matches the filter'] = 'Aucun sondage ne correspond au f
 L10n::$locales['No poll'] = 'Aucun sondage';
 L10n::$locales['List of %s polls matching the filter.'] = 'Liste des %s sondages correspondant au filtre.';
 L10n::$locales['List of polls (%s)'] = 'Liste des sondages (%s)';
-L10n::$locales['Legend: '] = 'Légende : ';
+L10n::$locales['Legend: '] = 'Légende : ';
 L10n::$locales['Votes opened'] = 'Votes ouverts';
 L10n::$locales['Votes closed'] = 'Votes fermés';
 L10n::$locales['Select this poll'] = 'Sélectionner ce sondage';
@@ -103,15 +102,15 @@ L10n::$locales['Votes are opened'] = 'Les votes sont ouverts';
 L10n::$locales['Selected poll'] = 'Sondage sélectionné';
 L10n::$locales['Publication date and hour'] = 'Date et heure de publication';
 L10n::$locales['Poll language'] = 'Langue du sondage';
-L10n::$locales['Text formatting'] = 'Format du texte';
-L10n::$locales['Edit basename'] = 'Modifier l\'URL';
+L10n::$locales['Text formatting'] = 'Formatage du texte';
+L10n::$locales['Edit basename'] = 'URL spécifique';
 L10n::$locales['Fields preceded by %s are mandatory.'] = 'Les champs précédés de %s sont obligatoires.';
-L10n::$locales['Title:'] = 'Titre :';
-L10n::$locales['Description:'] = 'Description :';
+L10n::$locales['Title:'] = 'Titre :';
+L10n::$locales['Description:'] = 'Description :';
 L10n::$locales['Options'] = 'Options';
 L10n::$locales['This poll has already votes. Changing queries or choices may distort results.'] = 'Ce sondage a déjà reçu des votes. Modifier les questions ou les choix peut fausser les résultats.';
-L10n::$locales['Query:'] = 'Question :';
-L10n::$locales['Type:'] = 'Type :';
+L10n::$locales['Question:'] = 'Question :';
+L10n::$locales['Type:'] = 'Type :';
 L10n::$locales['Save query'] = 'Enregistrer la question';
 L10n::$locales['Move up'] = 'Monter';
 L10n::$locales['Move down'] = 'Descendre';
@@ -158,7 +157,7 @@ L10n::$locales['Static pages'] = 'Pages statiques';
 L10n::$locales['Tags pages'] = 'Pages des mots-clés';
 L10n::$locales['Archives pages'] = 'Pages des archives';
 L10n::$locales['Category pages'] = 'Pages des catégories';
-L10n::$locales['Entries feed'] = 'Flux des billets';
+L10n::$locales['Entries feed'] = 'Fil des entrées';
 L10n::$locales['You have already participated in this poll.'] = 'Vous avez déjà participé à ce sondage.';
 L10n::$locales['Please wait for the end of this poll to see results.'] = 'Veuillez attendre la fin de ce sondage pour voir les résultats.';
 L10n::$locales['Vote'] = 'Voter';
@@ -170,8 +169,8 @@ L10n::$locales['%d votes'] = '%d votes';
 L10n::$locales['Polls: list'] = 'Sondages : liste';
 L10n::$locales['List of polls'] = 'Liste des sondages';
 L10n::$locales['Polls limit:'] = 'Nombre de sondages :';
-L10n::$locales['Order by:'] = 'Trier par :';
-L10n::$locales['Sort:'] = 'Ordre :';
+L10n::$locales['Order by:'] = 'Trier par :';
+L10n::$locales['Sort:'] = 'Ordre :';
 L10n::$locales['Ascending'] = 'Croissant';
 L10n::$locales['Descending'] = 'Décroissant';
 L10n::$locales['All'] = 'Tous';

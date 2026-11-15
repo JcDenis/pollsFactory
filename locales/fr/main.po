@@ -36,7 +36,7 @@ msgstr "Sondages"
 #: src/BackendBehaviors.php:84
 #: src/ListingPolls.php:87
 msgid "Status"
-msgstr "Statut"
+msgstr "État"
 
 #: src/ActionsPolls.php:56
 #: src/BackendBehaviors.php:62
@@ -62,11 +62,11 @@ msgstr "Marquer"
 
 #: src/ActionsPolls.php:65
 msgid "Mark as selected"
-msgstr "Marquer comme sélectionné"
+msgstr "Sélectionner"
 
 #: src/ActionsPolls.php:66
 msgid "Mark as unselected"
-msgstr "Marquer comme non sélectionné"
+msgstr "Désélectionner"
 
 #: src/ActionsPolls.php:76
 #: src/ActionsPolls.php:77
@@ -126,7 +126,7 @@ msgstr "Votants"
 #: src/BackendBehaviors.php:64
 #: src/ListingPolls.php:78
 msgid "Entries"
-msgstr "Billets"
+msgstr "Entrées"
 
 #: src/BackendBehaviors.php:65
 #: src/BackendBehaviors.php:81
@@ -141,7 +141,7 @@ msgstr "Date"
 #: src/BackendBehaviors.php:83
 #: src/ListingPolls.php:84
 msgid "Author"
-msgstr "Auteur"
+msgstr "Auteur·rice"
 
 #: src/BackendBehaviors.php:82
 #: src/ListingPolls.php:69
@@ -177,7 +177,7 @@ msgstr "Créer un sondage"
 
 #: src/Config.php:45
 msgid "hide"
-msgstr "masquer"
+msgstr "cacher"
 
 #: src/Config.php:46
 msgid "before content"
@@ -239,11 +239,11 @@ msgstr "Les sondages peuvent aussi être affichés avec le widget « Sondages : 
 
 #: src/FilterPolls.php:60
 msgid "Author:"
-msgstr "Auteur :"
+msgstr "Autrice ou auteur :"
 
 #: src/FilterPolls.php:69
 msgid "Selected:"
-msgstr "Sélectionné :"
+msgstr "Sélectionné :"
 
 #: src/FilterPolls.php:73
 msgid "Not selected"
@@ -282,7 +282,7 @@ msgstr "Liste des sondages (%s)"
 
 #: src/ListingPolls.php:126
 msgid "Legend: "
-msgstr "Légende : "
+msgstr "Légende : "
 
 #: src/ListingPolls.php:132
 #: src/ListingPolls.php:162
@@ -428,11 +428,11 @@ msgstr "Langue du sondage"
 
 #: src/ManagePoll.php:540
 msgid "Text formatting"
-msgstr "Format du texte"
+msgstr "Formatage du texte"
 
 #: src/ManagePoll.php:551
 msgid "Edit basename"
-msgstr "Modifier l'URL"
+msgstr "URL spécifique"
 
 #: src/ManagePoll.php:572
 msgid "Fields preceded by %s are mandatory."
@@ -440,13 +440,13 @@ msgstr "Les champs précédés de %s sont obligatoires."
 
 #: src/ManagePoll.php:582
 msgid "Title:"
-msgstr "Titre :"
+msgstr "Titre :"
 
 #: src/ManagePoll.php:591
 #: src/ManagePoll.php:670
 #: src/ManagePoll.php:783
 msgid "Description:"
-msgstr "Description :"
+msgstr "Description :"
 
 #: src/ManagePoll.php:606
 msgid "Options"
@@ -458,13 +458,13 @@ msgstr "Ce sondage a déjà reçu des votes. Modifier les questions ou les choix
 
 #: src/ManagePoll.php:654
 #: src/ManagePoll.php:769
-msgid "Query:"
-msgstr "Question :"
+msgid "Question:"
+msgstr "Question :"
 
 #: src/ManagePoll.php:661
 #: src/ManagePoll.php:775
 msgid "Type:"
-msgstr "Type :"
+msgstr "Type :"
 
 #: src/ManagePoll.php:673
 msgid "Save query"
@@ -660,7 +660,7 @@ msgstr "Pages des catégories"
 
 #: src/My.php:237
 msgid "Entries feed"
-msgstr "Flux des billets"
+msgstr "Fil des entrées"
 
 #: src/Render.php:109
 msgid "You have already participated in this poll."
@@ -709,11 +709,11 @@ msgstr "Nombre de sondages :"
 
 #: src/Widgets.php:37
 msgid "Order by:"
-msgstr "Trier par :"
+msgstr "Trier par :"
 
 #: src/Widgets.php:41
 msgid "Sort:"
-msgstr "Ordre :"
+msgstr "Ordre :"
 
 #: src/Widgets.php:42
 msgid "Ascending"

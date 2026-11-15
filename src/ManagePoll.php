@@ -651,7 +651,7 @@ class ManagePoll
                             ->maxlength(255)
                             ->value(Html::escapeHTML($queries->strField('option_title')))
                             ->required(true)
-                            ->label(new Label(__('Query:'), Label::OUTSIDE_TEXT_BEFORE)),
+                            ->label(new Label(__('Question:'), Label::OUTSIDE_TEXT_BEFORE)),
                     ]),
                     (new Para())->class('col')->items([
                         (new Select('query_type'))
@@ -766,7 +766,7 @@ class ManagePoll
                                     ->size(30)
                                     ->maxlength(255)
                                     ->required(true)
-                                    ->label(new Label(__('Query:'), Label::OUTSIDE_TEXT_BEFORE)),
+                                    ->label(new Label(__('Question:'), Label::OUTSIDE_TEXT_BEFORE)),
                             ]),
                             (new Para())->class('col')->items([
                                 (new Select(['query_type', 'new_query_type']))
