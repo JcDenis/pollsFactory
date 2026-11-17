@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Dotclear\Plugin\pollsFactory;
 
+use ArrayObject;
 use Dotclear\App;
 use Dotclear\Helper\Process\TraitProcess;
 
@@ -45,6 +46,10 @@ class Frontend
             'publicBeforeDocumentV2'   => FrontendBehaviors::publicBeforeDocumentV2(...),
             'publicEntryBeforeContent' => FrontendBehaviors::publicEntryBeforeContent(...),
             'publicEntryAfterContent'  => FrontendBehaviors::publicEntryAfterContent(...),
+            // add polls to the types filter of plugin saba (optional)
+            'sabaAddPostTypes' => function (ArrayObject $types): void {
+                $types[My::POST_TYPE] = __('Poll');
+            },
         ]);
 
         return true;

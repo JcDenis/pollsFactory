@@ -770,3 +770,6 @@ msgstr "le"
 #: default-templates/mustek/pollsfactory.html:27
 msgid "Permalink"
 msgstr "Lien permanent"
+
+msgid "Poll"
+msgstr "Sondage"

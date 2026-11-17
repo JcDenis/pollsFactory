@@ -184,3 +184,4 @@ L10n::$locales['Selected polls'] = 'Sondages sélectionnés';
 L10n::$locales['By'] = 'Par';
 L10n::$locales['on'] = 'le';
 L10n::$locales['Permalink'] = 'Lien permanent';
+L10n::$locales['Poll'] = 'Sondage';
