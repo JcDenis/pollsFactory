@@ -1,3 +1,7 @@
+pollsFactory 2026.11.18
+===========================================================
+* [new] Add polls to the types filter of the search of plugin saba
+
 pollsFactory 2026.11.15
 ===========================================================
 * [lang] Do not override core translations
