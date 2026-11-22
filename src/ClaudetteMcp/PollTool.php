@@ -25,6 +25,14 @@ use Dotclear\Plugin\pollsFactory\Polls;
 abstract class PollTool extends PostTool
 {
     /**
+     * Family of tools for the keys of ClaudetteMcp (string, not constant: older ClaudetteMcp versions have none).
+     */
+    public function family(): string
+    {
+        return 'stats';
+    }
+
+    /**
      * Like in backend: the plugin must be active on the blog, the user must be able to write entries.
      */
     public function available(): bool
