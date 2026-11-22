@@ -17,7 +17,7 @@ Required Dotclear and PHP versions: see `_define.php`.
 
 ## Structure
 
-* `src/ClaudetteMcp/`: read only tools for the plugin ClaudetteMcp (`list_polls`, `get_poll_results`, never required),
+* `src/ClaudetteMcp/`: read only tools for the plugin ClaudetteMcp (`list_polls`, `get_poll_results`, optional dependency `ClaudetteMcp?` in `requires`),
   registered in `src/Frontend.php` with the behavior `ClaudetteMcpAddTool`. Never send voters identifiers.
 * `src/ActionsPolls.php`: polls list actions.
 * `src/ActivityReportAction.php`: add polls actions to the plugin activity report.

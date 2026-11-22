@@ -52,7 +52,7 @@ called _Polls_ to link polls to this entry.
 
 With the plugin [ClaudetteMcp](https://github.com/JcDenis/ClaudetteMcp), an AI assistant connected to the blog
 can list the polls (`list_polls`) and read their results (`get_poll_results`), read only and without the voters.
-ClaudetteMcp is not required by _pollsFactory_.
+ClaudetteMcp is optional for _pollsFactory_ (version 0.5 or later).
 
 Polls can also be displayed with widgets _Polls: list_,
 _Polls: polls of an entry_ and _Polls: selected polls_,
