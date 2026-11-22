@@ -50,6 +50,10 @@ Each poll has its own public page (URL _survey/..._).
 When you edit an entry or a page you have a new sidebar option
 called _Polls_ to link polls to this entry.
 
+With the plugin [ClaudetteMcp](https://github.com/JcDenis/ClaudetteMcp), an AI assistant connected to the blog
+can list the polls (`list_polls`) and read their results (`get_poll_results`), read only and without the voters.
+ClaudetteMcp is not required by _pollsFactory_.
+
 Polls can also be displayed with widgets _Polls: list_,
 _Polls: polls of an entry_ and _Polls: selected polls_,
 or with template tags:
