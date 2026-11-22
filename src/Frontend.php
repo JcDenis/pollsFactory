@@ -30,6 +30,12 @@ class Frontend
             return false;
         }
 
+        // Tools for AI assistants connected to the blog with the plugin ClaudetteMcp (never required)
+        App::behavior()->addBehavior('ClaudetteMcpAddTool', function (ArrayObject $tools): void {
+            $tools->append(new ClaudetteMcp\ListPolls());
+            $tools->append(new ClaudetteMcp\GetPollResults());
+        });
+
         // Widgets are registered even if plugin is not active (they check it)
         App::behavior()->addBehavior('initWidgets', Widgets::init(...));
 

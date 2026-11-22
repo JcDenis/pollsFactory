@@ -17,6 +17,8 @@ Required Dotclear and PHP versions: see `_define.php`.
 
 ## Structure
 
+* `src/ClaudetteMcp/`: read only tools for the plugin ClaudetteMcp (`list_polls`, `get_poll_results`, never required),
+  registered in `src/Frontend.php` with the behavior `ClaudetteMcpAddTool`. Never send voters identifiers.
 * `src/ActionsPolls.php`: polls list actions.
 * `src/ActivityReportAction.php`: add polls actions to the plugin activity report.
 * `src/Backend.php`: admin side: menu entry, favorites, behaviors registration.
@@ -42,7 +44,7 @@ Required Dotclear and PHP versions: see `_define.php`.
 * Database table `post_option`.
 * URL handlers: `pollsfactory_page`, `pollsfactory_preview`.
 * Widgets: `pollsFactoryList`, `pollsFactoryEntry`, `pollsFactorySelected`.
-* Behaviors used: `initWidgets`, `adminDashboardFavoritesV2`, `adminColumnsListsV2`, `adminFiltersListsV3`, `adminBeforePostDelete`, `adminBeforePageDelete`, `adminPostFormItems`, `adminPageFormItems`, `adminAfterPostCreate`, `adminAfterPostUpdate`, `adminAfterPageCreate`, `adminAfterPageUpdate`, `publicHeadContent`, `publicBeforeDocumentV2`, `publicEntryBeforeContent`, `publicEntryAfterContent`, `sabaAddPostTypes` (optional plugin saba).
+* Behaviors used: `ClaudetteMcpAddTool`, `initWidgets`, `adminDashboardFavoritesV2`, `adminColumnsListsV2`, `adminFiltersListsV3`, `adminBeforePostDelete`, `adminBeforePageDelete`, `adminPostFormItems`, `adminPageFormItems`, `adminAfterPostCreate`, `adminAfterPostUpdate`, `adminAfterPageCreate`, `adminAfterPageUpdate`, `publicHeadContent`, `publicBeforeDocumentV2`, `publicEntryBeforeContent`, `publicEntryAfterContent`, `sabaAddPostTypes` (optional plugin saba).
 
 ## Pitfalls
 

@@ -11,6 +11,7 @@ Ce guide explique comment créer des sondages avec l'extension pollsFactory, les
 5. [Consulter les résultats](#consulter-les-résultats)
 6. [Gérer la liste des sondages](#gérer-la-liste-des-sondages)
 7. [Préférences utilisateur](#préférences-utilisateur)
+8. [Avec un assistant IA](#avec-un-assistant-ia)
 
 ## Configurer l'extension
 
@@ -179,3 +180,15 @@ L'icône du tableau de bord affiche le nombre de sondages.
 Dans **Préférences › Mes options**, le bloc « Gestionnaire de sondages » choisit les colonnes affichées dans la liste : votes, votants, billets, date, auteur.
 
 ![Colonnes de la liste](img/preferences-colonnes.png)
+
+## Avec un assistant IA
+
+Avec le plugin [ClaudetteMcp](https://github.com/JcDenis/ClaudetteMcp), un assistant IA connecté au blog peut consulter les sondages,
+si l'extension est activée sur le blog :
+
+* `list_polls` : lister les sondages avec leur nombre de participants et l'état des votes ;
+* `get_poll_results` : lire les résultats d'un sondage, comme sur la page des résultats (votes et pourcentages, réponses libres).
+
+L'assistant ne fait que lire : il ne crée ni ne modifie de sondage, et les participants ne lui sont jamais identifiés.
+Comme pour les billets, il ne voit les sondages non publiés que si vous en êtes l'auteur ou administrateur de contenu.
+_ClaudetteMcp_ n'est pas nécessaire au fonctionnement de _pollsFactory_.
