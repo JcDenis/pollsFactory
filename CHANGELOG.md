@@ -1,3 +1,7 @@
+pollsFactory 2026.11.22
+===========================================================
+* [compat] Use adminFiltersListsV3 behavior
+
 pollsFactory 2026.11.18
 ===========================================================
 * [new] Add polls to the types filter of the search of plugin saba
