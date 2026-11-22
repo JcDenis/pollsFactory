@@ -42,7 +42,7 @@ Required Dotclear and PHP versions: see `_define.php`.
 * Database table `post_option`.
 * URL handlers: `pollsfactory_page`, `pollsfactory_preview`.
 * Widgets: `pollsFactoryList`, `pollsFactoryEntry`, `pollsFactorySelected`.
-* Behaviors used: `initWidgets`, `adminDashboardFavoritesV2`, `adminColumnsListsV2`, `adminFiltersListsV2`, `adminBeforePostDelete`, `adminBeforePageDelete`, `adminPostFormItems`, `adminPageFormItems`, `adminAfterPostCreate`, `adminAfterPostUpdate`, `adminAfterPageCreate`, `adminAfterPageUpdate`, `publicHeadContent`, `publicBeforeDocumentV2`, `publicEntryBeforeContent`, `publicEntryAfterContent`, `sabaAddPostTypes` (optional plugin saba).
+* Behaviors used: `initWidgets`, `adminDashboardFavoritesV2`, `adminColumnsListsV2`, `adminFiltersListsV3`, `adminBeforePostDelete`, `adminBeforePageDelete`, `adminPostFormItems`, `adminPageFormItems`, `adminAfterPostCreate`, `adminAfterPostUpdate`, `adminAfterPageCreate`, `adminAfterPageUpdate`, `publicHeadContent`, `publicBeforeDocumentV2`, `publicEntryBeforeContent`, `publicEntryAfterContent`, `sabaAddPostTypes` (optional plugin saba).
 
 ## Pitfalls
 
