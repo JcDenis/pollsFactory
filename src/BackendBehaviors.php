@@ -7,6 +7,7 @@ namespace Dotclear\Plugin\pollsFactory;
 use ArrayObject;
 use Dotclear\App;
 use Dotclear\Core\Backend\Favorites;
+use Dotclear\Core\Backend\UserPrefFilter;
 use Dotclear\Database\Cursor;
 use Dotclear\Database\MetaRecord;
 use Dotclear\Helper\Html\Form\Checkbox;
@@ -71,11 +72,12 @@ class BackendBehaviors
     /**
      * Polls lists sort options.
      *
-     * @param   ArrayObject<string, mixed>  $sorts  The sort options
+     * @param   ArrayObject<array-key, UserPrefFilter>  $filters  The list filters
      */
-    public static function adminFiltersListsV2(ArrayObject $sorts): void
+    public static function adminFiltersListsV3(ArrayObject $filters): void
     {
-        $sorts[My::id()] = [
+        $filters->append(new UserPrefFilter(
+            My::id(),
             My::name(),
             [
                 __('Date')     => 'post_dt',
@@ -86,8 +88,9 @@ class BackendBehaviors
             ],
             'post_dt',
             'desc',
-            [__('polls per page'), 30],
-        ];
+            __('polls per page'),
+            30
+        ));
     }
 
     /**
